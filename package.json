@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "./build/electron/main.js",
   "scripts": {
-    "dump": "dump-streamlit-desktop-artifacts",
+    "dump": "dump-stlite-desktop-artifacts",
     "serve": "NODE_ENV=\"production\" electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
