@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamlit-desktop"
+version = "0.1.0"
+description = ""
+authors = ["chefbc <chefbc@icloud.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_desktop"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.14.0"
+streamlit-option-menu = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
