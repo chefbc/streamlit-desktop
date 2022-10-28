@@ -24,3 +24,8 @@
 
 
  poetry export --without-hashes --format=requirements.txt > requirements.txt
+
+
+
+
+ If any commit message in your push or the HEAD commit of your PR contains the strings [skip ci], [ci skip], [no ci], [skip actions], or [actions skip] workflows triggered on the push or pull_request events will be skipped.

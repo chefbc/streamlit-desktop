@@ -1,4 +1,4 @@
-from . import home, upload, keyring
+from . import home, upload, keyring, password
 
 # https://icons.getbootstrap.com
 
@@ -17,6 +17,6 @@ PAGES = {
     },
     "Passwords": {
         "icon": "shield-lock",
-        "method": keyring.show,
+        "method": password.show,
     },
 }
